@@ -1,20 +1,20 @@
 _wrs = (function(){
 	var wrs = [
-		"3.08",		// 1
-		"2.75",		// 2
-		"4.03",		// 3
-		"3.33",		// 4
-		"2.16",		// 5
-		"4.86",		// 6
-		"6.20",		// 7
-		"3.90",		// 8
-		"4.49",		// 9
-		"5.67",		// 10
-		"4.01",		// 11
-		"3.83",		// 12
-		"10.45",	// 13
-		"4.93",		// 14
-		"2.67",		// 15
+		"3.20",		// 1
+		"2.77",		// 2
+		"4.40",		// 3
+		"4.10",		// 4
+		"3.40",		// 5
+		"5.10",		// 6
+		"6.70",		// 7
+		"4.40",		// 8
+		"4.90",		// 9
+		"6.00",		// 10
+		"4.50",		// 11
+		"4.90",		// 12
+		"10.80",	// 13
+		"7.20",		// 14
+		"3.00",		// 15
 	];
 	
 	var decimal_places_display = 2;
@@ -24,7 +24,7 @@ _wrs = (function(){
 		// Return the WR times, or return custom times if they were set by the user
         getTimes: function() {
 			if (customTimes) {
-				return {"title": "Pace", "wrs": customTimes};
+				return {"title": "Pace", "Pace": customTimes};
 			}
 
 			// There are no custom times, so just return the WR times instead
