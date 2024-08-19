@@ -24,7 +24,7 @@ _wrs = (function(){
 		// Return the WR times, or return custom times if they were set by the user
         getTimes: function() {
 			if (customTimes) {
-				return {"title": "Pace", "Pace": customTimes};
+				return {"title": "Pace", "wrs": customTimes};
 			}
 
 			// There are no custom times, so just return the WR times instead
