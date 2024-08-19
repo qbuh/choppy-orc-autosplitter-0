@@ -28,7 +28,7 @@ _wrs = (function(){
 			}
 
 			// There are no custom times, so just return the WR times instead
-            return {"title": "Time", "wrs": wrs};
+            return {"title": "WR", "wrs": wrs};
 		},
 		// Set new custom level times 
 		setCustomTimes: function(times) {
