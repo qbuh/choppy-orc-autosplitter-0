@@ -40,7 +40,7 @@ _wrs = (function(){
 		// Return the WR times, or return custom times if they were set by the user
         getTimes: function() {
 			if (customTimes) {
-				return {"title": "magey sam", "wrs": customTimes};
+				return {"title": "peper rune", "wrs": customTimes};
 			}
 
 			// There are no custom times, so just return the WR times instead
