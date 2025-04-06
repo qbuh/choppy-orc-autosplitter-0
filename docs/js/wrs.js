@@ -21,26 +21,26 @@ _wrs = (function(){
 	var customTimes = [
 		"3.13",		// 1
 		"2.76",		// 2
-		"4.26",		// 3
-		"3.98",		// 4
-		"2.99",		// 5
-		"4.97",		// 6
-		"6.62",		// 7
-		"4.06",		// 8
-		"4.63",		// 9
-		"6.01",		// 10
-		"4.50",		// 11
-		"4.13",		// 12
-		"10.58",	// 13
-		"6.14",		// 14
-		"3.03",		// 15
+		"4.28",		// 3
+		"3.93",		// 4
+		"2.78 B)",		// 5
+		"4.93",		// 6
+		"6.55",		// 7
+		"bad",		// 8
+		"4.77",		// 9
+		"5.85",		// 10
+		"ff pls",		// 11
+		"4.65",		// 12
+		"10.65",	// 13
+		"prayge",		// 14
+		"dont choke",		// 15
 	];
 
     return {
 		// Return the WR times, or return custom times if they were set by the user
         getTimes: function() {
 			if (customTimes) {
-				return {"title": "peper rune", "wrs": customTimes};
+				return {"title": "buh buh", "wrs": customTimes};
 			}
 
 			// There are no custom times, so just return the WR times instead
