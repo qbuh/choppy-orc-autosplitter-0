@@ -19,28 +19,28 @@ _wrs = (function(){
 	
 	var decimal_places_display = 2;
 	var customTimes = [
-		"3.13",		// 1
+		"3.12",		// 1
 		"2.77",		// 2
-		"4.28",		// 3
-		"3.93",		// 4
-		"2.78",		// 5
-		"4.93",		// 6
-		"6.55",		// 7
-		"bad",		// 8
-		"4.77",		// 9
-		"5.85",		// 10
-		"4.52",		// 11
-		"4.65",		// 12
-		"10.65",	// 13
-		"6.08",		// 14
-		"3.03",		// 15
+		"4.27",		// 3
+		"3.98",		// 4
+		"3.32",		// 5
+		"4.92",		// 6
+		"6.47",		// 7
+		"4.27",		// 8
+		"4.75",		// 9
+		"5.88",		// 10
+		"4.20",		// 11
+		"4.73",		// 12
+		"10.60",	// 13
+		"6.30",		// 14
+		"3.07",		// 15
 	];
 
     return {
 		// Return the WR times, or return custom times if they were set by the user
         getTimes: function() {
 			if (customTimes) {
-				return {"title": "buh buh", "wrs": customTimes};
+				return {"title": "buh", "wrs": customTimes};
 			}
 
 			// There are no custom times, so just return the WR times instead
