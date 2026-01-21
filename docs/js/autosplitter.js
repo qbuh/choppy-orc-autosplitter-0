@@ -56,7 +56,8 @@ _autosplitter = (function () {
 					_speedrunStatsHandler.onLevelEnd(
 						state.level,
 						state.levelTime,
-						console.log(levelTime)
+						console.log(levelTime),
+						console.log(speedrunTime)
 					);
 				}
 			}
