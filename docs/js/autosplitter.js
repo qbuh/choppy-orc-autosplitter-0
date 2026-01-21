@@ -56,7 +56,7 @@ _autosplitter = (function () {
 					_speedrunStatsHandler.onLevelEnd(
 						state.level,
 						state.levelTime,
-						console.log("Welcome to or321's speedrun patch for Choppy Orc by eddynardo.")
+						console.log(levelTime)
 					);
 				}
 			}
