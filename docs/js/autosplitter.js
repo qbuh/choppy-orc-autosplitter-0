@@ -55,7 +55,9 @@ _autosplitter = (function () {
 				if (state.speedrun_mode_active) {
 					_speedrunStatsHandler.onLevelEnd(
 						state.level,
-						state.levelTime
+						state.levelTime,
+						print.level,
+						print.levelTime
 					);
 				}
 			}
