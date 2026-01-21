@@ -56,7 +56,6 @@ _autosplitter = (function () {
 					_speedrunStatsHandler.onLevelEnd(
 						state.level,
 						state.levelTime,
-						console.log(speedrunTime)
 					);
 				}
 			}
@@ -348,4 +347,13 @@ _autosplitter = (function () {
 		onCanvasResize: onCanvasResize,
 		moveToLevel: moveToLevel,
 	};
+
+	// PLEASE DONT BREAK THE GAME TOO BAd
+
+
+	if (state.speedrun_mode_active) {
+				_speedrunStatsHandler.onLevelEnd(
+					console.log(speedrunTime)
+				);
+	
 })();
